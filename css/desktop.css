@@ -1,0 +1,160 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+    margin: 0 auto;
+  }
+  .container-header {
+    padding-bottom: 28px;
+  }
+  .logo {
+    margin-right: 76px;
+  }
+  .header-list {
+    display: flex;
+    align-items: center;
+  }
+  .link-studio.current::after,
+  .link-portfolio.current::after {
+    bottom: 0;
+  }
+  .item-list:not(:last-child) {
+    margin-right: 40px;
+  }
+  .tel,
+  .mail {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    transition: color var(--trans);
+  }
+  .mail {
+    margin-bottom: 4px;
+  }
+}
+/* ==============Heading================ */
+
+@media screen and (min-width: 1200px) {
+
+.heading { 
+  padding-top: 188px;
+  padding-bottom: 188px;
+  background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
+    url(../images/Dark-bg-desktop.jpg);
+  
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx)
+{
+  .heading { background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
+    url(../images/Dark-bg-desktop@2x.jpg);
+  }
+}
+
+.heading-title {
+  margin-bottom: 48px;
+}
+}
+/* ===========Features=========== */
+
+@media screen and (min-width: 1200px) {
+.section { 
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.features-list {
+  gap: 24px;
+}
+
+.item-feature {
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.item-feature-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 112px;
+  background-color: var(--cloud-background);
+  border-radius: 4px;
+
+  margin-bottom: 8px;
+}
+
+.feature-caption {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+}
+
+.feature-text {
+  font-weight: 400;
+ 
+}
+
+/* =============Photos============= */
+
+.images-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--title-color);
+} 
+
+.images { 
+  padding-bottom: 120px;
+}
+
+.images-title {
+  margin-bottom: 72px;
+  text-transform: capitalize;
+}
+.images-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+/*=========Customers клієнти ======= */
+.customers { 
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.customers>.container {
+  max-width: 1158px;
+} 
+.customer-list {
+  display: flex;
+  gap: 24px;
+}
+.customer-item {
+  flex-basis: calc((100% - 120px) / 6);
+  height: 88px;
+}
+/* ========= footer підвал ============== */
+ 
+.footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer>.container {
+  max-width: 1158px;
+}
+.footer-tumbh-link { 
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+
+}
+.footer-tumbh {
+  width: 264px;
+  margin-right: 120px;}
+
+.footer-link {
+  margin-bottom: 0;
+}
+}

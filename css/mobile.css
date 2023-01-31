@@ -1,0 +1,50 @@
+@media screen and (min-width: 480px) {
+  .container {
+    position: relative;
+    max-width: 426px;
+  
+  }
+}
+
+
+/* =======Heading============ */
+@media screen and (min-width: 480px) {
+     
+.heading-container.container {
+  padding-left: 15px;
+  padding-right: 15px; }
+}
+  
+ 
+
+/* ==============Features============ */
+/*0px-767px  */
+
+@media screen and (max-width: 768px) { 
+ .header-link, .header-list {
+ display: none;
+ }
+.features>.container {
+  max-width: 426px;
+  }
+
+.feature-caption {
+    text-align: center;
+}
+.item-feature:not(:last-child) {
+  margin-bottom: 72px;
+}
+.employees>.container {
+  max-width: 294px;
+}
+.form-mail{
+  display: block;}
+}
+ 
+/*0px-1199px  */
+@media screen and (max-width: 1199px) {
+  .images
+   {
+    display: none;
+  }
+}
