@@ -99,6 +99,12 @@
     url(../images/Dark-bg-tablet.jpg);
   
 }
+.heading-title {
+  font-weight: 700;
+  font-size: 56px;
+  margin-bottom: 40px;
+}
+}  
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
 screen and (min-resolution: 192dpi) and (min-width: 768px),
@@ -109,12 +115,8 @@ screen and (min-resolution: 2dppx) and (min-width: 768px)
   }
 }
   
-  .heading-title {
-  font-weight: 700;
-  font-size: 56px;
-  margin-bottom: 40px;
-}
-}    
+  
+  
 
 /* ===========Features=========== */
 
