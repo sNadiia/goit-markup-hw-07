@@ -55,18 +55,19 @@
               <a href="tel:+110001111111" class="tel">+11 (000) 111-11-11</a>
             </li>
           </ul>
-          <button type="button" class="mobile-menu-open" js-open-menu>
+          <button type="button" class="mobile-menu-open" data-menu-open >
             <svg class="mobile-menu-open-icon" width="32" height="22">
               <use href="./images/icons.svg#icon-hamburger"></use>
             </svg>
           </button>
-          <div class="mobile-menu" js-menu-container>
-            <button type="button" class="mobile-menu-close" js-close-menu>
+          <div class="mobile-menu is-hidden" data-menu>
+            
+            <div class="container mobile-menu-container">
+              <button type="button" class="mobile-menu-close" data-menu-close>
               <svg class="mobile-menu-close-icon" width="8" heihgt="8">
                 <use href="./images/icons.svg#icon-close-black"></use>
               </svg>
             </button>
-            <div class="container mobile-menu-container">
             <div>
               <ul class="links mobile-menu-list">
               <li class="mobile-menu-item">
@@ -504,7 +505,7 @@
       </div>
     </footer>
     <!--Модальне вікно -->
-     <!--<div class="backdrop is-hidden" data-modal>
+     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-btn"  data-modal-close>
         <svg class="modal-btn-icon" width="8" height="8">
@@ -577,8 +578,8 @@
             </button>
         </form>
       </div>
-     </div> -->
+     </div> 
       <script src="./js/modal.js"></script>
-      <script src="./js/mobile-menu.js"></script>
+      <script src="./js/menu.js"></script>
   </body>
 </html>
