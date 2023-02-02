@@ -70,6 +70,9 @@ img {
   padding-bottom: 96px;
 }
 /* =================================Header==================================== */
+.header {
+  border-bottom: 1px solid #E7E9FC;
+}
 .container-header {
   display: flex;
   align-items: center;
@@ -261,7 +264,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   color: var(--white-color);
-
+   text-align: center;
   margin-bottom: 72px;
 }
 .button {
@@ -315,7 +318,7 @@ img {
   padding-top: 72px;
   padding-left: 24px;
   padding-right: 24px;
-  width: 392px;
+  width: 385px;
   height: 586px;
   border-radius: 4px;
   background-color: rgba(252, 252, 252, 1);
@@ -774,8 +777,11 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
 }
 .list-buttons {
   display: flex;
-  justify-content: center;
-  margin-bottom: 72px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 16px;
+  margin-bottom: 48px;
+
 }
 .portfolio-button {
   font-family: var(--main-font-family);
@@ -795,9 +801,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
    color var(--trans), 
    box-shadow var(--trans);
 }
-.item-button:not(:last-child) {
-  margin-right: 24px;
-}
+
 
 .portfolio-button:active,
 .portfolio-button:hover,
@@ -811,9 +815,10 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
-  row-gap: 48px;
+  row-gap: 72px;
+  flex-basis: calc(100% - 24px) / 2;
   padding-bottom: 120px;
-  width: calc(100%-48px) / 3;
+  
 }
 .img-portfolio {
   box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
@@ -829,6 +834,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
 .overloy-thumb {
   position: relative;
   overflow: hidden;
+  width: 396px;
+  height: 280px;
 }
 .overloy {
   position: absolute;
@@ -860,7 +867,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
   border-top: none;
 }
 .subtitle-portfolio {
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--title-color);

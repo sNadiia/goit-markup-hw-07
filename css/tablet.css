@@ -207,4 +207,16 @@ screen and (min-resolution: 2dppx) and (min-width: 768px)
 .modal {
   width: 408px;
 }
+
+/* ================= Portfolio ==================*/
+.list-buttons {
+  justify-content: center;
+  margin-bottom: 64px;
+  
+}
+.overloy-thumb {
+  height: 300px;
+  width: 356px;
+}
+
 }

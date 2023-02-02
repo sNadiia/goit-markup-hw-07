@@ -157,4 +157,14 @@
 .footer-link {
   margin-bottom: 0;
 }
+
+/* ================ Portfolio =================*/
+.list-buttons {
+  margin-bottom: 72px;
+  
+}
+.overloy-thumb {
+  width: 360px;
+
+}
 }
