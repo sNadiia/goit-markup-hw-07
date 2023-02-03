@@ -202,7 +202,7 @@ img {
 
 .mobile-list-soclink {
   display: flex;
-  justify-content: space-around;
+  gap: 56px;
 }
 
 .mobile-soclink {
@@ -234,7 +234,7 @@ img {
   padding-top: 112px;
   padding-bottom: 112px;
   background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-    url(../images/Dark-bg-mobile.jpg);
+    url(../images/dark-bg-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -247,7 +247,7 @@ img {
 (min-resolution: 2dppx)
 {
   .heading { background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-    url(../images/Dark-bg-mobile@2x.jpg);
+    url(../images/dark-bg-mobile@2x.jpg);
   }
 }
 
@@ -524,9 +524,16 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
 }
 
 /* ============ Employees section========================*/
-
+.employees.section {
+  padding-bottom: 128px;
+}
 .employees { 
   background: var(--cloud-background);
+}
+.employees-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 74px;
 }
 .employees-title,
 .title-customers {
@@ -638,7 +645,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
 }
 
 .footer-tumbh {
-  text-align: center;
+  
   max-width: 268px;
   margin-left: auto;
   margin-right: auto;
@@ -652,7 +659,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--web-color);
-  
+
 }
 .logo-studio-footer {
   color: var(--cloud-background);
@@ -662,13 +669,10 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
   font-weight: 400;
   line-height: 1.5;
   color: var(--footer-text-color);
-  text-align: center;
   margin-top: 16px;
   
 }
-.footer-link {
-  margin-bottom: 72px;
-}
+
 
 .title-footer-link {
   font-weight: 500;

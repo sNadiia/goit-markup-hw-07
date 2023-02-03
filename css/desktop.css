@@ -39,8 +39,10 @@
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-    url(../images/Dark-bg-desktop.jpg);
-  
+    url(../images/dark-bg-desktop.jpg);
+  width: 1440px;
+  height: 600px;
+  margin: 0 auto;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -48,7 +50,7 @@
 (min-resolution: 2dppx)
 {
   .heading { background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-    url(../images/Dark-bg-desktop@2x.jpg);
+    url(../images/dark-bg-desktop@2x.jpg);
   }
 }
 
@@ -119,6 +121,11 @@
   flex-wrap: wrap;
   gap: 24px;
 }
+/* ========  section 4 Співробітники =======*/
+.employees.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+} 
 /*=========Customers клієнти ======= */
 .customers { 
   padding-top: 120px;
@@ -146,16 +153,16 @@
 }
 .footer-tumbh-link { 
   display: flex;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  flex-wrap: nowrap; 
+  gap: 0;
 
 }
 .footer-tumbh {
-  width: 264px;
   margin-right: 120px;}
 
 .footer-link {
   margin-bottom: 0;
+   margin-right: 80px;
 }
 
 /* ================ Portfolio =================*/

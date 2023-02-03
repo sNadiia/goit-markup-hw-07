@@ -96,7 +96,7 @@
    .heading { 
   padding-bottom: 108px; 
   background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-    url(../images/Dark-bg-tablet.jpg);
+    url(../images/dark-bg-tablet.jpg);
   
 }
 .heading-title {
@@ -111,7 +111,7 @@ screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px)
 {
   .heading { background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-    url(../images/Dark-bg-tablet@2x.jpg);
+    url(../images/dark-bg-tablet@2x.jpg);
   }
 }
   
@@ -123,10 +123,10 @@ screen and (min-resolution: 2dppx) and (min-width: 768px)
 
 /*0px-1199px  */
 @media screen and (max-width: 1199px) {
-.section {
+/* .section {
   padding-top: 96px;
   padding-bottom: 96px;
-} 
+}  */
 
 .item-feature {
   flex-basis: calc((100% - 24px) / 2);
@@ -148,10 +148,14 @@ screen and (min-resolution: 2dppx) and (min-width: 768px)
 }
 /* ========  section 4 Співробітники =======*/
 @media screen and (min-width: 768px) {
+.employees.section {
+  padding-bottom: 104px;
+} 
 .employees-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  row-gap: 64px;
+  column-gap: 24px;
 }
 }
 
@@ -167,7 +171,10 @@ screen and (min-resolution: 2dppx) and (min-width: 768px)
   max-width: 582px;
 } 
 
+ .customer-list {
+  column-gap: 24px;
  
+}
 .customer-item {
  flex-basis: calc((100% - 48px) / 3);
   height: 88px;

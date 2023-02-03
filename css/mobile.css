@@ -42,6 +42,14 @@
 }
 .form-mail{
   display: block;}
+
+  .logo-footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-link {
+  margin-bottom: 72px;
+}
 }
  
 /*0px-1199px  */
