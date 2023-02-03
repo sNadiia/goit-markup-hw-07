@@ -39,7 +39,7 @@
   padding-top: 188px;
   padding-bottom: 188px;
   background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-    url(../images/dark-bg-desktop.jpg);
+    url(../images/darkbg-desktop.jpg);
   width: 1440px;
   height: 600px;
   margin: 0 auto;
@@ -50,7 +50,7 @@
 (min-resolution: 2dppx)
 {
   .heading { background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-    url(../images/dark-bg-desktop@2x.jpg);
+    url(../images/darkbg-desktop@2x.jpg);
   }
 }
 

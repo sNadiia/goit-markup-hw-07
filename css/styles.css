@@ -234,7 +234,7 @@ img {
   padding-top: 112px;
   padding-bottom: 112px;
   background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-    url(../images/dark-bg-mobile.jpg);
+    url(../images/darkbg-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -247,7 +247,7 @@ img {
 (min-resolution: 2dppx)
 {
   .heading { background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-    url(../images/dark-bg-mobile@2x.jpg);
+    url(../images/darkbg-mobile@2x.jpg);
   }
 }
 
