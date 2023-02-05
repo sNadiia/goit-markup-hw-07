@@ -40,7 +40,7 @@
   padding-bottom: 188px;
   background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
     url(../images/darkbg-desktop.jpg);
-  width: 1440px;
+  max-width: 1440px;
   height: 600px;
   margin: 0 auto;
 }
