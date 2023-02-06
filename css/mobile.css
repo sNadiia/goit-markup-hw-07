@@ -2,60 +2,26 @@
   .container {
     position: relative;
     max-width: 426px;
-  
   }
 }
-
 
 /* =======Heading============ */
 @media screen and (min-width: 480px) {
-     
-.heading-container.container {
-  padding-left: 15px;
-  padding-right: 15px; }
-  
-  .modal {
-  width: 392px;}
-}
-  
- 
-
-/* ==============Features============ */
-/*0px-767px  */
-
-@media screen and (max-width: 767px) { 
- .header-link, .header-list {
- display: none;
- }
-.features>.container {
-  max-width: 426px;
+  .heading-container.container {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
-.feature-caption {
-    text-align: center;
+  .modal {
+    width: 392px;
+  }
 }
-.item-feature:not(:last-child) {
-  margin-bottom: 72px;
-}
-.employees>.container {
-  max-width: 294px;
-}
-.form-mail{
-  display: block;}
 
-  .logo-footer {
-  display: flex;
-  justify-content: center;
-}
-.footer-link {
-  margin-bottom: 72px;
-}
-}
- 
+/* ==============Features============ */
+
 /*0px-1199px  */
 @media screen and (max-width: 1199px) {
-  .images
-   {
+  .images {
     display: none;
   }
 }
