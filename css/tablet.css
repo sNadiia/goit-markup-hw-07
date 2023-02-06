@@ -97,8 +97,9 @@
 @media screen and (min-width: 768px) {
   .heading {
     padding-bottom: 108px;
+    max-width: 1200px;
     background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-      url(../images/darkbg-tablet.jpg);
+      url(../images/darkbg-desktop.jpg);
   }
   .heading-title {
     font-weight: 700;
@@ -112,7 +113,7 @@
   screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .heading {
     background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
-      url(../images/darkbg-tablet@2x.jpg);
+      url(../images/darkbg-desktop@2x.jpg);
   }
 }
 

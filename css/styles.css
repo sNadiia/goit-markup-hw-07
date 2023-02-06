@@ -192,7 +192,7 @@ img {
 }
 .mobile-tel {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 8vw;
   line-height: 1.11;
   color: var(--web-color);
 }
@@ -205,7 +205,7 @@ img {
 
 .mobile-list-soclink {
   display: flex;
-  gap: 56px;
+  justify-content: space-between;
 }
 
 .mobile-soclink {
@@ -242,7 +242,8 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: var(--title-color) ж;
+  background-color: var(--title-color);
+  max-width: 428px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -262,7 +263,7 @@ img {
 }
 .heading-title {
   font-weight: 600;
-  font-size: 36px;
+  font-size: 9vw;
   line-height: 1.11;
   color: var(--white-color);
   text-align: center;

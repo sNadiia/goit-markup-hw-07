@@ -6,22 +6,40 @@
 }
 
 /* =======Heading============ */
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 428px) {
   .heading-container.container {
     padding-left: 15px;
     padding-right: 15px;
   }
 
+  .heading {
+    max-width: 767px;
+    background-image: linear-gradient(to bottom, var(--bgcolor), var(--bgcolor)),
+      url(../images/darkbg-tablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .heading {
+      background-image: linear-gradient(
+          to bottom,
+          var(--bgcolor),
+          var(--bgcolor)
+        ),
+        url(../images/darkbg-tablet@2x.jpg);
+    }
+  }
   .modal {
     width: 392px;
   }
-}
-
-/* ==============Features============ */
-
-/*0px-1199px  */
-@media screen and (max-width: 1199px) {
-  .images {
-    display: none;
+  .mobile-list-soclink {
+    gap: 56px;
+  }
+  .mobile-tel {
+    font-size: 36px;
+  }
+  .heading-title {
+    font-size: 36px;
   }
 }
